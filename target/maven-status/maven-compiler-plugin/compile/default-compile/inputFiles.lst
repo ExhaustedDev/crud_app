@@ -1,0 +1,10 @@
+C:\JavaProjects\crud_app\src\main\java\config\AppConfig.java
+C:\JavaProjects\crud_app\src\main\java\config\HibernateConfig.java
+C:\JavaProjects\crud_app\src\main\java\dao\HibernateUserDao.java
+C:\JavaProjects\crud_app\src\main\java\dao\UserDao.java
+C:\JavaProjects\crud_app\src\main\java\model\User.java
+C:\JavaProjects\crud_app\src\main\java\service\UserService.java
+C:\JavaProjects\crud_app\src\main\java\service\UserServiceImpl.java
+C:\JavaProjects\crud_app\src\main\java\web\config\AppInit.java
+C:\JavaProjects\crud_app\src\main\java\web\config\WebConfig.java
+C:\JavaProjects\crud_app\src\main\java\web\controller\UserController.java
