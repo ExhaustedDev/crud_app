@@ -17,7 +17,6 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("service")
 public class HibernateConfig {
 
     private final Properties dbProperties;
