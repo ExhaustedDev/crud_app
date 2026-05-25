@@ -1,4 +1,4 @@
-package web.controller;
+package controller;
 
 import model.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,11 +60,6 @@ public class UserController {
 
     @PostMapping("/edit")
     public String editUserPost(@ModelAttribute("updatedUser") User user) {
-        System.out.println("ID = " + user.getId());
-        System.out.println("NAME = " + user.getName());
-        System.out.println("LASTNAME = " + user.getLastName());
-        System.out.println("AGE = " + user.getAge());
-
         userService.updateUser(user);
 
         return "redirect:/";
